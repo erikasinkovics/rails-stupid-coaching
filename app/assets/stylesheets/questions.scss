@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+$gray: #F4F4F4;
+$blue: #BFD7FF;
+$yellow: #F7F06D;
+$green: #2D936C;
+
+body {
+  background: $gray; // Using this variable
+  font-family: "Open Sans";
+}
+
+div {
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: $green;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.question {
+  border-left: 5px solid $blue;
+}
+
+.response {
+  border-left: 5px solid $yellow;
+}
+
